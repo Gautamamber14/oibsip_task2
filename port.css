@@ -1,0 +1,259 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  box-sizing: border-box;
+}
+.hero{
+  height: 100vh;
+  width: 100%;
+  background-image: url(IMG_20230131_230329.jpg);
+  background-size: cover;
+  background-position: center;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.logo{
+  color: aliceblue;
+  font-size: 35px;
+  cursor: pointer;
+}
+span{
+  color: brown;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a{
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 25px;
+}
+nav ul li a:hover{
+  color: darkblue;
+  transition: .5s;
+}
+.btn{
+  background-color:black;
+  color:aliceblue;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform.4s;
+}
+.btn:hover{
+  transform: scale(1.2);
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+h4{
+  color: aliceblue;
+  letter-spacing: 3px;
+  font-size: 21px;
+}
+h1{
+  color: aliceblue;
+  margin: 20px 0px 21px;
+  font-size: 77px;
+}
+h3{
+  color:aliceblue;
+  font-size: 26px;
+  margin-bottom: 51px;
+}
+.newslatter form{
+  width: 381px;
+  max-width: 100%;
+  position: relative;
+}
+.newslatter form input:first-child{
+  display: inline-block;
+  width: 100%;
+  padding: 13px 128px 13px 16px;
+  border: 2px solid brown;
+  border-radius: 31px;
+}
+.newslatter form input:last-child{
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: brown;
+  color: aliceblue;
+  top: 6px;
+  right: 6px;
+}
+.about{
+  width: 100%;
+  padding: 100px 0px;
+  background-color: black;
+}
+.about img{
+  height: 420px;
+  width: 370px;
+  border-radius: 75px;
+
+}
+.about-text{
+  width: 550px;
+}
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0  15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h2{
+  color: aliceblue;
+  font-size: 78px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5{
+  color: aliceblue;
+  letter-spacing: 2px;
+  font-size: 35px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.about-text p{
+  color: aliceblue;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+.about-text p:hover{
+  cursor: pointer;
+  color: crimson;
+}
+button{
+  background-color: brown;
+  color: aliceblue;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .5s;
+}
+button:hover{
+  cursor: pointer;
+  border: 5px solid white;
+}
+.service{
+  background-color: black;
+  width: 100%;
+  padding: 10px 0px;
+}
+.tittle h2{
+  color: aliceblue;
+  font-size: 55px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card{
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background-color:brown;
+  border-radius: 35px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.card i{
+  font-size: 35px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: aliceblue;
+}
+h5{
+  color: black;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.pra p{
+  color: aliceblue;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+.card .button{
+  background-color: black;
+  color: aliceblue;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .5s;
+}
+.card .button:hover{
+  cursor: pointer;
+  border: 5px solid white;
+}
+footer{
+  position:relative;
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer p:nth-child(1){
+  font-size: 30px;
+  color: aliceblue;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+footer p:nth-child(2){
+  color: aliceblue;
+  font-size: 17px;
+  width: 500px;
+  text-align: center;
+  line-height: 26px
+}
+footer i{
+  font-size: 35px;
+  color: aliceblue;
+  
+  margin: 25px;
+ 
+}
+footer i:hover{
+  color: rgb(178, 71, 71);
+}
+.end{
+  font-size: medium;
+  color: aliceblue;
+}
